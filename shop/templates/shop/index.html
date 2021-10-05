@@ -1,0 +1,7 @@
+<h1>Inventory</h1>
+
+<ul>
+	{% for item in inventory %}
+		<li>{{ item.name }}: {{item.description}} </li>
+	{% endfor %}
+</ul>
